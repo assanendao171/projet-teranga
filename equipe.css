@@ -22,9 +22,14 @@ nav a{
 nav a:hover{
     text-decoration: underline;
 }
+
 .logo{
     width: 80px;
 left: 10px;
+}
+.menu-toggle {
+    display: none;
+    cursor: pointer;
 }
 
 /* footer */

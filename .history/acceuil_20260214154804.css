@@ -201,8 +201,6 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-    gap: 15px;
-  width: 100%;
 }
   nav a {
     margin: 15px;
@@ -215,7 +213,8 @@ nav {
     text-decoration: underline;
   }
     nav.active {
-        display: flex;
+        display: block;
+        fle
     }
 
     .menu-toggle {

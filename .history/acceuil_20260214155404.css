@@ -215,7 +215,7 @@ nav {
     text-decoration: underline;
   }
     nav.active {
-        display: flex;
+        display: block;
     }
 
     .menu-toggle {

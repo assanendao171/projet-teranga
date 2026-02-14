@@ -22,7 +22,12 @@ nav a{
 nav a:hover{
     text-decoration: underline;
 }
-
+nav.active{
+    display:block
+}
+    .menu-toggle {
+        display: block;
+    }
 .logo{
     width: 80px;
 left: 10px;

@@ -242,7 +242,7 @@ nav {
   nav a:hover {
     text-decoration: underline;
   }
-      nav.active {
+  #nav-menu.active {
         display: flex;
     }
 
@@ -388,7 +388,7 @@ footer {
 
 
 /* media query tablette */
-@media screen and (min-width: 769px) and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) { 
   * {
     box-sizing: border-box;
   }

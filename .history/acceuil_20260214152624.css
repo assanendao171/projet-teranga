@@ -21,10 +21,6 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
-.menu-toggle {
-    display: none;
-    cursor: pointer;
-}
 .logo {
   width: 80px;
   left: 10px;
@@ -196,14 +192,12 @@ footer {
     padding: 10px 20px;
   }
 
-nav {
-  display: none;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-    gap: 15px;
-  width: 100%;
-}
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   nav a {
     margin: 15px;
     color: #1e3a8a;
@@ -214,13 +208,7 @@ nav {
   nav a:hover {
     text-decoration: underline;
   }
-    nav.active {
-        display: flex;
-    }
 
-    .menu-toggle {
-        display: block;
-    }
 .hero {
   width: 100%;
   height: auto;
